@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by Belal on 1/27/2017.
+ * Created by Ntonsite.
  */
 public class DatabaseHelper extends SQLiteOpenHelper {
 
@@ -64,7 +64,6 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         db.close();
         return true;
     }
-
     /*
     * This method taking two arguments
     * first one is the id of the name for which

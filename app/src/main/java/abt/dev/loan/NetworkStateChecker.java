@@ -20,7 +20,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Belal on 1/27/2017.
+ * Created by Ntonsite.
  */
 
 public class NetworkStateChecker extends BroadcastReceiver {

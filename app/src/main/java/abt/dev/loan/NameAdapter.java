@@ -11,7 +11,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by Belal on 1/27/2017.
+ * Created by Ntonsite
  */
 
 public class NameAdapter extends ArrayAdapter<Name> {
