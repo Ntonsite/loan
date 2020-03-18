@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="abt.dev.loan.Step1Activity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linearLayout1">
+            <EditText
+                android:id="@+id/editTextUkoo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/jina_la_ukoo"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextKwanza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/jina_la_kwanza"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextMengine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/majina_mengine"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/barua_pepe"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTextSimu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/namba_ya_simu"
+                android:inputType="phone" />
+
+            <EditText
+                android:id="@+id/editTextMahali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/mahala_anapoishi"
+                android:inputType="textPostalAddress" />
+
+            <EditText
+                android:id="@+id/editTextWilaya"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/wilaya"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+        <RadioGroup
+            android:id="@+id/radioChaguo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/first"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/mara_ya_kwanza" />
+
+            <RadioButton
+                android:id="@+id/repeat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="@string/mteja_wa_kujirudia" />
+
+        </RadioGroup>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/next"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            />
+        <ProgressBar
+
+            android:id="@+id/progressBarStep1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="gone" />
+
+    </LinearLayout>
+</ScrollView>
